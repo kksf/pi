@@ -1,6 +1,5 @@
 <?php
 
-require_once '../vendor/pillax/debug/debug.php';
 require_once '../vendor/autoload.php';
 
 /////////////////////////////////////////////////////////////////////

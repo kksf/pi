@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7b6fe7775fb25d3811ffc46628e94830",
+    "content-hash": "f4b37892534ad6938f14dc0e460c5da3",
     "packages": [
         {
             "name": "aura/autoload",
@@ -103,6 +103,39 @@
                 "routing"
             ],
             "time": "2017-03-02 23:01:06"
+        },
+        {
+            "name": "pillax/debugger",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kksf/debugger.git",
+                "reference": "6f5b63ed7225ef2b58fbb7ed547a8aed274b9d9e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kksf/debugger/zipball/6f5b63ed7225ef2b58fbb7ed547a8aed274b9d9e",
+                "reference": "6f5b63ed7225ef2b58fbb7ed547a8aed274b9d9e",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/debug.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kiril Kapustin",
+                    "email": "kiril.kapustin@gmail.com"
+                }
+            ],
+            "description": "Unstable, unsupported package for testing only. Do not use it in real projects.",
+            "time": "2017-03-05 15:08:27"
         },
         {
             "name": "pillax/validator",
@@ -283,7 +316,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "pillax/debugger": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
