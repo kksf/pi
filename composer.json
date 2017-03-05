@@ -1,0 +1,10 @@
+{
+    "name": "pi",
+    "minimum-stability": "dev",
+    "require": {
+        "pillax/validator": "*",
+        "aura/router": "^3.1",
+        "aura/autoload": "^2.0",
+        "zendframework/zend-diactoros": "^1.3"
+    }
+}
